@@ -1,0 +1,44 @@
+[{   
+    
+    "name": "RealmeX2 Pro",
+    
+    "brand" : "Realme",
+    "price" : "30999",
+    "category" :"64 MP",
+    "rating": "SD855+"
+    
+ 
+ },
+ {
+    
+    "name": "RealmeX7 Pro",
+    
+    "brand" : "Realme",
+    "price" : "21999",
+    "category" :"64 MP",
+    "rating": "SD765G"
+    
+  
+  },
+  {
+    
+    "name": "MI 11T Pro",
+    
+    "brand" : "Xiaomi",
+    "price" : "27999",
+    "category" :"108 MP",
+    "rating": "SD765+"
+  
+  },
+  {
+    
+    "name": "MI 12 Pro",
+    
+    "brand" : "Xiaomi",
+    "price" : "37999",
+    "category" :"108 MP",
+    "rating": "SD865+"
+  
+  }]
+
+

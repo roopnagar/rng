@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        #naam {
+
+            display: flex;
+
+        }
+
+        #lnam {
+
+            padding-left: 100px;
+
+        }
+
+        #naaam {
+
+            display: flex;
+
+        }
+
+        #appointmenttform {
+
+            font-style: medium;
+
+            font-weight: 100px;
+
+
+
+        }
+
+
+
+        body {
+
+            background-color: rgb(240, 221, 13);
+
+            padding-left: 450px;
+
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <!-- <p style="width: 20px;" ><strong></strong></p> -->
+
+    <h2> Hospital Appointment Form</h2>
+
+    <form id="appointmentform">
+
+
+
+        <div id="name">
+
+            <label for="fname"><strong>First name </strong></label>
+
+            <label id="lnam" for="lname">Last name</label>
+
+        </div>
+
+        <div id="name1">
+
+            <input type="text" id="fname" name="fname" placeholder="Roop" required maxlength="20"><br>
+
+            <input type="text" id="lname" name="lname" placeholder="Nagar" required maxlength="15"><br>
+
+        </div>
+
+        <label for="phone">Phone number</label>
+
+        <input type="number" id="phone" placeholder="99999999999" required maxlength="10"><br>
+
+        <label for="email">Email ID</label>
+
+        <input type="email" id="email" placeholder="abcd@gmail.com" required maxlength="30"><br>
+
+        <label for="dob">Date of Birth</label>
+
+        <input type="date" id="dob"><br>
+
+        <label for="adate">Appointment Date</label>
+
+        <input type="date" id="adate"><br>
+
+        <label for="atime">Appointment Time</label>
+
+        <input type="time" id="atime"><br>
+
+        </div>
+
+
+
+        <div id="Department">
+
+            <label for="Department">Choose a Clinical Department:</label>
+
+            <select id="Department" name="Department" size="2">
+
+                <option value="General surgery">General surgery</option>
+
+                <option value="Geriatric department">Geriatric department</option>
+
+                <option value="Cardiology department">Cardiology department</option>
+
+                <option value="Anesthesiology department">Anesthesiology department</option>
+
+                <option value="Intensive care unit (ICU)">Intensive care unit (ICU)</option>
+
+                <option value="Operating theatre (OT)">Operating theatre (OT)</option>
+
+                <option value="Gynaecology department">Gynaecology department</option>
+
+                <option value="OPD">OPD</option>
+
+                <option value="Denatl">Dental</option>
+
+            </select>
+
+        </div>
+
+        <div id="Departmental">
+
+            <label for="Departmental">Choose a Departmental Doctor:</label>
+
+            <select id="Departmental" name="Departmental" size="2">
+
+                <option value="Dr.Tinku Bhati">Dr.Tinku Bhati</option>
+
+                <option value="Dr.roop">Dr.Roop</option>
+
+                <option value="Dr.yogesh">Dr.yogesh</option>
+
+                <option value="Dr.Rohan">Dr rohan</option>
+
+                <option value="Dr.tinki">Dr tinki</option>
+
+                <option value="Dr.pinki">Dr pinki</option>
+
+                <option value="Dr.chinki">Dr chinki</option>
+
+                <option value="Dr.roopa">dr roopa</option>
+
+                <option value="Dr.rinki">dr rinki</option>
+
+            </select>
+
+        </div>
+
+        <div id="question">
+
+            <label for="q1">Do you have any previous illeness</label><br><br>
+
+            <input type="radio" id="q1" name="yes" value="yes">
+
+            <label for="yes">yes</label><br><br>
+
+            <input type="radio" id="q1" name="no" value="no">
+
+            <label for="no">no</label><br><br>
+
+            <label for="q2">Do you have any medical issue</label><br><br>
+
+            <input type="radio" id="q2" name="yes" value="yes">
+
+            <label for="yes">yes</label><br><br>
+
+            <input type="radio" id="q1" name="no" value="no">
+
+            <label for="no">no</label><br><br>
+
+            <label for="q3">Are you adult</label><br><br>
+
+            <input type="radio" id="q3" name="yes" value="yes">
+
+            <label for="yes">yes</label><br><br>
+
+            <input type="radio" id="q3" name="no" value="no">
+
+            <label for="no">no</label><br><br>
+
+            <label for="q4">Have you visited our hospital previously</label><br><br>
+
+            <input type="radio" id="q4" name="yes" value="yes">
+
+            <label for="yes">yes</label><br><br>
+
+            <input type="radio" id="q4" name="no" value="no">
+
+            <label for="no">no</label><br><br>
+
+
+
+        </div>
+        <div id="submit">
+            <input type="submit"><br>
+        </div>
+    </form>
+</body>
+
+</html>
+<script src="./hospital.js"></script>
