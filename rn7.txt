@@ -3,3 +3,4 @@ some text
 
 line1
 line2
+line78
